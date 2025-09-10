@@ -1,0 +1,86 @@
+body {
+    background-color: #F4D04E;
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+    color: #111111;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+}
+.card {
+    background-color: white;
+    width: 384px;
+    height: 522px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 1rem;  
+}
+.card:hover,
+.card:focus {
+    box-shadow: 10px 10px black;
+    border: 1px black;
+    border-style: solid;  
+}
+img {
+    justify-self: center;
+    border-radius: 1rem;
+    width: 90%;
+    align-items: center;
+    margin: 1rem 1rem .5rem;
+}
+.categoryPill {
+    background-color: #F4D04E;
+    border-radius: .5rem;
+    width: 6.8rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .2rem 1rem .2rem;    
+}
+.publishedDate {
+    font-weight:500;
+    margin: 0rem 1rem;
+}
+h1 {
+    font-weight: 800;
+    margin: 0rem 1rem;
+    font-size: 1.7rem;
+}
+.instructor {
+    max-height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 800;
+}
+.avatar {
+    max-height: 2.5rem;
+    width:auto;
+}
+.description {
+    font-weight: 500;
+    color: #6B6B6B;
+    margin: 0rem 1rem;
+}
+@media (max-width: 390px) {
+    .card {
+        max-width: 327px;
+        max-height: 501px;
+    }
+    h1 {
+        font-size: 1.3rem;
+    }
+    .description {
+        font-size: .9rem;
+    }
+}
