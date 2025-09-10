@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     color: #111111;
 }
-main {
+/* main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,14 +19,14 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     border-radius: 1rem;  
-}
+} */
 .card:hover,
 .card:focus {
     box-shadow: 10px 10px black;
     border: 1px black;
     border-style: solid;  
 }
-img {
+/* img {
     justify-self: center;
     border-radius: 1rem;
     width: 90%;
@@ -83,4 +83,4 @@ h1 {
     .description {
         font-size: .9rem;
     }
-}
+} */

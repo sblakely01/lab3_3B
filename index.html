@@ -9,28 +9,29 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <title>Frontend Mentor | Blog preview card</title>
 
 </head>
 <body>
-  <main>
-    <div class="card">
-      <img src="./assets/images/illustration-article.svg" alt="Abstract graphic of keyboard symbols">
-      <div class="categoryPill">
-        Learning
+  <main class="flex items-center justify-center h-screen">
+    <div class="card bg-slate-50 rounded-lg" style="width: 390px; height: 520px">
+      <img src="./assets/images/illustration-article.svg" class="m-4 w-90 rounded-lg" alt="Abstract graphic of keyboard symbols">
+      <div class="bg-amber-300 rounded-lg w-25 mx-4 mb-1 p-1">
+        <p class="mx-3 font-black">Learning</p>
       </div>
-      <div class="publishedDate">
+      <div class="mx-4 mb-3">
         Published 21 Dec 2023
       </div>
       <h1>
-        HTML & CSS foundations
+        <p class="mx-4 font-black text-2xl mb-3">HTML & CSS foundations</p>
       </h1>
-      <div class="description">
+      <div class="mx-4 font-light text-slate-500">
         These languages are the backbone of every website, defining structure, content, and presentation.
       </div>
-      <div class="instructor">
-        <img src="./assets/images/image-avatar.webp" class="avatar" alt="Image of class instructure">
-        Greg Hooper
+      <div class="mx-4 mt-2 flex items-center" style="height: 60px">
+        <img src="./assets/images/image-avatar.webp" class="mr-4" style="height: 40px" alt="Image of class instructure">
+        <p class="font-bold">Greg Hooper</p>
       </div>
     </div>
   </main>
